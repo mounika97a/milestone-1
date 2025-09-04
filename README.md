@@ -53,14 +53,14 @@ Copy code
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repo
+1️⃣ Clone the repo
 ```bash
 git clone https://github.com/your-username/text-morph.git
 cd text-morph
 
 ---
 
-### 2️⃣ Create a virtual environment
+2️⃣ Create a virtual environment
 bash
 Copy code
 python -m venv venv
@@ -69,8 +69,7 @@ venv\Scripts\activate      # for Windows
 
 ---
 
-
-### 3️⃣ Install dependencies
+3️⃣ Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
@@ -88,6 +87,7 @@ Copy code
 cd frontend
 streamlit run app.py
 Frontend will run at: http://localhost:8501
+
 
 
 
