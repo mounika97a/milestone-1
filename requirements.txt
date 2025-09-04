@@ -1,0 +1,32 @@
+# Frontend
+streamlit==1.37.0
+
+# Backend
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# HTTP requests
+requests==2.32.3
+
+# Text analysis
+textstat==0.7.3
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.9.0
+
+# File handling
+python-multipart==0.0.9
+
+# Security
+python-jose==3.3.0
+passlib==1.7.4
+
+# Database (if you are using SQLite/Postgres)
+SQLAlchemy==2.0.31
+
+# Optional: CORS if backend needs cross-origin access
+starlette==0.37.2
