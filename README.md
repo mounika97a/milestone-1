@@ -58,27 +58,36 @@ Copy code
 git clone https://github.com/your-username/text-morph.git
 cd text-morph
 
+---
+
 ### 2️⃣ Create a virtual environment
+bash
+Copy code
 python -m venv venv
 source venv/bin/activate   # for Linux/Mac
 venv\Scripts\activate      # for Windows
 
-### 3️⃣ Install dependencies
-pip install -r requirements.txt
+---
 
-### ▶️ Running the Project
+
+### 3️⃣ Install dependencies
+bash
+Copy code
+pip install -r requirements.txt
+▶️ Running the Project
 Start Backend (FastAPI)
+bash
+Copy code
 cd backend
 uvicorn main:app --reload
-
-
 Backend will run at: http://127.0.0.1:8000
 
 Start Frontend (Streamlit)
+bash
+Copy code
 cd frontend
 streamlit run app.py
-
-
 Frontend will run at: http://localhost:8501
+
 
 
